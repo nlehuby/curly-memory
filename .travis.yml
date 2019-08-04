@@ -1,0 +1,21 @@
+language: python
+python:
+- "3.6"
+
+before_script:
+  - pip install gtfstk
+
+script:
+     - wget https://eu.ftp.opendatasoft.com/stif/GTFS/IDFM_gtfs.zip --output-document=gtfs.zip
+     - mkdir output
+     - python split_gtfs.py
+     - rm gtfs.zip
+
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_DEPLOY_TOKEN
+  keep-history: true
+  on:
+    branch: master
