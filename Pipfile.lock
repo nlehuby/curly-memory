@@ -18,11 +18,11 @@
     "default": {
         "gtfstk": {
             "hashes": [
-                "sha256:57816c18351a32b13bf8b9f64db6477defa5831864964516e6fad965e4ed145f",
-                "sha256:d1ddfeaf9bbada3900b8b2442869119220a58e3d2a553e3aa694bf6e33c9e7dd"
+                "sha256:00ed8df897fd8f0e90305b9a897e173376d92739605c4ef8b84dc28e191fb87a",
+                "sha256:051fc455d2d04b9a89f51110ae10c412f290be9f3145a85fcd53eaea48826bb3"
             ],
             "index": "pypi",
-            "version": "==10.0.3"
+            "version": "==10.0.4"
         },
         "json2table": {
             "hashes": [
